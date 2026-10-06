@@ -218,3 +218,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Jupyter / Kaggle specific
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model weights and checkpoints (too large for git)
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Large data files
+*.npy
+*.npz
+
+# Logs that can get large or regenerate
+logs/*.log
+
+# OS/editor junk
+.DS_Store
+.vscode/
