@@ -1,6 +1,6 @@
 {
   "run_name": "lion_42_0.0003",
-  "timestamp": "2026-10-25T02:59:26",
+  "timestamp": "2026-10-25T05:49:09",
   "seed": 42,
   "dataset": "CIFAR10",
   "architecture": "resnet18",
@@ -55,6 +55,6 @@
     "final_test_acc": 93.14,
     "generalization_gap": 6.849999999999994,
     "diverged": false,
-    "total_train_time_sec": 2505.4459648132324
+    "total_train_time_sec": 2344.5823986530304
   }
 }
