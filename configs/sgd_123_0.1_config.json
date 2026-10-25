@@ -1,0 +1,59 @@
+{
+  "run_name": "sgd_123_0.1",
+  "timestamp": "2026-10-25T06:28:24",
+  "seed": 123,
+  "dataset": "CIFAR10",
+  "architecture": "resnet18",
+  "total_parameters": 11173962,
+  "epochs": 50,
+  "batch_size": 128,
+  "num_workers": 2,
+  "train_augmentation": "RandomCrop(32, padding=4) + RandomHorizontalFlip",
+  "normalization_mean": [
+    0.4914,
+    0.4822,
+    0.4465
+  ],
+  "normalization_std": [
+    0.247,
+    0.2435,
+    0.2616
+  ],
+  "loss_function": "CrossEntropyLoss",
+  "optimizer": {
+    "name": "sgd",
+    "class": "torch.optim.SGD",
+    "weight_decay_type": "L2 penalty added to gradient (coupled)",
+    "hyperparameters": {
+      "lr": 0.1,
+      "momentum": 0.9,
+      "dampening": 0,
+      "nesterov": false,
+      "weight_decay": 0.0005
+    }
+  },
+  "scheduler": {
+    "type": "CosineAnnealingLR",
+    "T_max": 50,
+    "final_lr": 0.0
+  },
+  "mixed_precision": false,
+  "gradient_clipping": null,
+  "snapshot_every_n_epochs": 5,
+  "weight_init": "Kaiming normal (conv), constant (BN), N(0, 0.01) (linear)",
+  "environment": {
+    "device": "cuda",
+    "gpu": "Tesla T4",
+    "torch_version": "2.11.0+cu128",
+    "python_version": "3.13.15"
+  },
+  "results": {
+    "final_train_loss": 0.003061797090098262,
+    "final_train_acc": 99.962,
+    "final_test_loss": 0.21165669775009155,
+    "final_test_acc": 94.36,
+    "generalization_gap": 5.602000000000004,
+    "diverged": false,
+    "total_train_time_sec": 2291.4338874816895
+  }
+}
