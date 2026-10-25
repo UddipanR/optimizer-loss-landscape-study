@@ -1,6 +1,6 @@
 {
   "run_name": "adamw_99_0.001",
-  "timestamp": "2026-10-25T16:03:35",
+  "timestamp": "2026-10-25T21:38:13",
   "seed": 99,
   "dataset": "CIFAR10",
   "architecture": "resnet18",
@@ -57,6 +57,6 @@
     "final_test_acc": 93.04,
     "generalization_gap": 6.941999999999993,
     "diverged": false,
-    "total_train_time_sec": 2333.8170914649963
+    "total_train_time_sec": 2282.0651042461395
   }
 }
