@@ -1,6 +1,6 @@
 {
   "run_name": "sgd_99_0.1",
-  "timestamp": "2026-10-25T14:45:50",
+  "timestamp": "2026-10-25T20:22:12",
   "seed": 99,
   "dataset": "CIFAR10",
   "architecture": "resnet18",
@@ -54,6 +54,6 @@
     "final_test_acc": 94.15,
     "generalization_gap": 5.799999999999997,
     "diverged": false,
-    "total_train_time_sec": 2294.252224445343
+    "total_train_time_sec": 2245.7132976055145
   }
 }
