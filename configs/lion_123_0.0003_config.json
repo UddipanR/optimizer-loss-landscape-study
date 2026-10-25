@@ -1,0 +1,60 @@
+{
+  "run_name": "lion_123_0.0003",
+  "timestamp": "2026-10-25T08:25:24",
+  "seed": 123,
+  "dataset": "CIFAR10",
+  "architecture": "resnet18",
+  "total_parameters": 11173962,
+  "epochs": 50,
+  "batch_size": 128,
+  "num_workers": 2,
+  "train_augmentation": "RandomCrop(32, padding=4) + RandomHorizontalFlip",
+  "normalization_mean": [
+    0.4914,
+    0.4822,
+    0.4465
+  ],
+  "normalization_std": [
+    0.247,
+    0.2435,
+    0.2616
+  ],
+  "loss_function": "CrossEntropyLoss",
+  "optimizer": {
+    "name": "lion",
+    "class": "lion_pytorch.Lion",
+    "weight_decay_type": "decoupled, applied directly to weights",
+    "hyperparameters": {
+      "lr": 0.0003,
+      "betas": [
+        0.9,
+        0.99
+      ],
+      "weight_decay": 0.1
+    }
+  },
+  "scheduler": {
+    "type": "CosineAnnealingLR",
+    "T_max": 50,
+    "final_lr": 0.0
+  },
+  "mixed_precision": false,
+  "gradient_clipping": null,
+  "snapshot_every_n_epochs": 5,
+  "weight_init": "Kaiming normal (conv), constant (BN), N(0, 0.01) (linear)",
+  "environment": {
+    "device": "cuda",
+    "gpu": "Tesla T4",
+    "torch_version": "2.11.0+cu128",
+    "python_version": "3.13.15"
+  },
+  "results": {
+    "final_train_loss": 0.0006134004821757844,
+    "final_train_acc": 99.984,
+    "final_test_loss": 0.4543012342453003,
+    "final_test_acc": 93.23,
+    "generalization_gap": 6.753999999999991,
+    "diverged": false,
+    "total_train_time_sec": 2342.330288887024
+  }
+}
