@@ -1,0 +1,23 @@
+{
+  "preset": "full",
+  "grid_n": 21,
+  "grid_range": 1.0,
+  "n_1d_points": 41,
+  "dir_seeds_2d": [
+    1000,
+    2000
+  ],
+  "dir_seeds_1d": [
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "eval_subset_size": 5000,
+  "eval_subset_seed": 1,
+  "normalization": "filter-wise (Li et al. 2018), BatchNorm and bias directions set to zero",
+  "model_mode": "eval",
+  "vmax_plot": 5.0,
+  "low_loss_delta": 0.5
+}
