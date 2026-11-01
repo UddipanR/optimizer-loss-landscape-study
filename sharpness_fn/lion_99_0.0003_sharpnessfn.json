@@ -1,0 +1,27 @@
+{
+  "run_name": "lion_99_0.0003",
+  "optimizer": "lion",
+  "seed": 99,
+  "lr": 0.0003,
+  "lambda_max_fn": 11.334488868713379,
+  "power_iters": 7,
+  "power_converged": true,
+  "trace_fn": 41.44783096313476,
+  "trace_fn_std_err": 3.3825056795017048,
+  "settings": {
+    "hess_n": 2000,
+    "power_iters": 30,
+    "trace_samples": 30,
+    "hess_bs": 250,
+    "power_tol": 0.001,
+    "hess_seed": 3,
+    "sam_rhos": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "mode": "eval",
+    "data": "clean training images",
+    "type": "filter-normalized Hessian D H D, BatchNorm and bias excluded"
+  }
+}
