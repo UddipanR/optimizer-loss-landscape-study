@@ -1,0 +1,38 @@
+{
+  "run_name": "lion_2024_0.0003",
+  "optimizer": "lion",
+  "seed": 2024,
+  "lr": 0.0003,
+  "lambda_max": 10.02120590209961,
+  "power_iters": 5,
+  "power_last_change": 0.0005707483196075633,
+  "power_converged": true,
+  "trace": 15.724871722857158,
+  "trace_std_err": 1.7376505514034624,
+  "trace_per_param": 1.4072780740490398e-06,
+  "weight_norm": 520.64111328125,
+  "lambda_max_scaled": 2716419.9122322067,
+  "subset_train_loss": 0.0020052994415163993,
+  "grad_norm": 0.07592372638390482,
+  "test_acc": 92.98,
+  "gen_gap": 7.009999999999991,
+  "time_sec": 236.220397233963,
+  "settings": {
+    "hess_n": 2000,
+    "power_iters": 30,
+    "trace_samples": 30,
+    "hess_bs": 250,
+    "power_tol": 0.001,
+    "hess_seed": 3,
+    "sam_rhos": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "mode": "eval",
+    "data": "clean training images"
+  },
+  "sam_rho_0.05": 0.006606310911476613,
+  "sam_rho_0.1": 0.012029151014983655,
+  "sam_rho_0.2": 0.037140211232006545
+}
