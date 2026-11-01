@@ -1,0 +1,38 @@
+{
+  "run_name": "sgd_123_0.1",
+  "optimizer": "sgd",
+  "seed": 123,
+  "lr": 0.1,
+  "lambda_max": 21.50794792175293,
+  "power_iters": 11,
+  "power_last_change": 0.000864500698520783,
+  "power_converged": true,
+  "trace": 200.23536860148113,
+  "trace_std_err": 12.801297095850693,
+  "trace_per_param": 1.7919818288399506e-05,
+  "weight_norm": 30.457441329956055,
+  "lambda_max_scaled": 19951.971181080393,
+  "subset_train_loss": 0.0022336902618408203,
+  "grad_norm": 0.10201631995408593,
+  "test_acc": 94.36,
+  "gen_gap": 5.602000000000004,
+  "time_sec": 274.7711338996887,
+  "settings": {
+    "hess_n": 2000,
+    "power_iters": 30,
+    "trace_samples": 30,
+    "hess_bs": 250,
+    "power_tol": 0.001,
+    "hess_seed": 3,
+    "sam_rhos": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "mode": "eval",
+    "data": "clean training images"
+  },
+  "sam_rho_0.05": 0.020453326225280764,
+  "sam_rho_0.1": 0.08670424461364745,
+  "sam_rho_0.2": 0.4796555919647217
+}
