@@ -1,0 +1,9 @@
+feature,sgd,adam,adamw,lion,significant pairs (Holm < 0.05)
+path_length,480 ± 7.3,467 ± 9.6,1.02e+03 ± 9.9,2.43e+03 ± 12,SGD > ADAM; SGD < ADAMW; SGD < LION; ADAM < ADAMW; ADAM < LION; ADAMW < LION
+net_distance,109 ± 0.11,109 ± 0.039,201 ± 1.1,512 ± 1.3,SGD < ADAM; SGD < ADAMW; SGD < LION; ADAM < ADAMW; ADAM < LION; ADAMW < LION
+straightness,0.227 ± 0.0033,0.234 ± 0.0048,0.198 ± 0.0013,0.211 ± 0.00086,SGD < ADAM; SGD > ADAMW; SGD > LION; ADAM > ADAMW; ADAM > LION; ADAMW < LION
+final_weight_norm,30.8 ± 0.18,28.4 ± 0.032,209 ± 1.1,519 ± 1.3,SGD > ADAM; SGD < ADAMW; SGD < LION; ADAM < ADAMW; ADAM < LION; ADAMW < LION
+grad_norm_late,0.894 ± 0.024,1.51 ± 0.018,0.309 ± 0.011,0.197 ± 0.019,SGD < ADAM; SGD > ADAMW; SGD > LION; ADAM > ADAMW; ADAM > LION; ADAMW > LION
+epochs_to_trainloss_0.05,40.4 ± 0.55,40.2 ± 0.45,29.8 ± 0.45,28.2 ± 0.45,SGD > ADAMW; SGD > LION; ADAM > ADAMW; ADAM > LION; ADAMW > LION
+epochs_to_testacc_90,32.8 ± 1.6,28 ± 2.2,20.2 ± 1.3,14.8 ± 1.1,SGD > ADAM; SGD > ADAMW; SGD > LION; ADAM > ADAMW; ADAM > LION; ADAMW > LION
+test_loss_rise_after_min,0.000315 ± 0.00037,0.00402 ± 0.00099,0.0382 ± 0.012,0.121 ± 0.0094,SGD < ADAM; SGD < ADAMW; SGD < LION; ADAM < ADAMW; ADAM < LION; ADAMW < LION
