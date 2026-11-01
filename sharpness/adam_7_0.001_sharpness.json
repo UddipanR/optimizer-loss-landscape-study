@@ -1,0 +1,38 @@
+{
+  "run_name": "adam_7_0.001",
+  "optimizer": "adam",
+  "seed": 7,
+  "lr": 0.001,
+  "lambda_max": 80.96256256103516,
+  "power_iters": 8,
+  "power_last_change": 0.000618083103106244,
+  "power_converged": true,
+  "trace": 836.0022104899089,
+  "trace_std_err": 44.22198190155706,
+  "trace_per_param": 7.481699065111452e-05,
+  "weight_norm": 28.338394165039062,
+  "lambda_max_scaled": 65018.16661075989,
+  "subset_train_loss": 0.007656169891357422,
+  "grad_norm": 0.32111349207570317,
+  "test_acc": 92.99,
+  "gen_gap": 6.808000000000007,
+  "time_sec": 248.63642001152039,
+  "settings": {
+    "hess_n": 2000,
+    "power_iters": 30,
+    "trace_samples": 30,
+    "hess_bs": 250,
+    "power_tol": 0.001,
+    "hess_seed": 3,
+    "sam_rhos": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "mode": "eval",
+    "data": "clean training images"
+  },
+  "sam_rho_0.05": 0.04389470100402832,
+  "sam_rho_0.1": 0.2007944450378418,
+  "sam_rho_0.2": 1.3010733833312988
+}
