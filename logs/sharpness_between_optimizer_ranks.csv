@@ -1,0 +1,11 @@
+metric,order (low to high),pairs ordered like the gap
+lambda_max,LION < ADAMW < SGD < ADAM,3 of 6
+trace,LION < ADAMW < SGD < ADAM,3 of 6
+sam_rho_0.05,LION < ADAMW < SGD < ADAM,3 of 6
+sam_rho_0.1,LION < ADAMW < SGD < ADAM,3 of 6
+sam_rho_0.2,LION < ADAMW < SGD < ADAM,3 of 6
+lambda_max_scaled,SGD < ADAM < ADAMW < LION,4 of 6
+loss_rise_r0.25,SGD < ADAMW < LION < ADAM,6 of 6
+loss_rise_r0.50,SGD < ADAMW < LION < ADAM,6 of 6
+neg_low_loss_area,SGD < ADAMW < LION < ADAM,6 of 6
+weight_norm,ADAM < SGD < ADAMW < LION,3 of 6
