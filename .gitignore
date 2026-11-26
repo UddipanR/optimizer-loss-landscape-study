@@ -239,3 +239,5 @@ logs/*.log
 # OS/editor junk
 .DS_Store
 .vscode/
+
+control_checkpoints/
