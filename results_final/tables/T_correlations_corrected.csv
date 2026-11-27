@@ -8,7 +8,7 @@ gen_gap,lambda_max_scaled,20,0.361,0.17,0.608,-0.2,0.465,0.2,-0.3,-0.7,0.0,1.0,t
 gen_gap,loss_rise_r0.25,20,0.707,0.465,0.906,0.125,0.655,0.7,-0.2,-0.1,0.1,1.0,tracks the gap only through optimizer differences
 gen_gap,loss_rise_r0.50,20,0.719,0.488,0.9,0.125,0.652,0.7,0.1,-0.1,-0.2,1.0,tracks the gap only through optimizer differences
 gen_gap,neg_low_loss_area,20,0.674,0.455,0.843,-0.075,0.797,0.4,0.6,-0.7,-0.6,1.0,tracks the gap only through optimizer differences
-gen_gap,weight_norm,20,-0.057,-0.317,0.308,0.125,0.662,0.7,0.2,-0.6,0.2,0.662,reference variable (not a sharpness measure)
+gen_gap,weight_norm,20,-0.057,-0.317,0.308,0.125,0.662,0.7,0.2,-0.6,0.2,0.662,no clear relation
 loss_gap,lambda_max,20,-0.707,-0.786,-0.598,-0.05,0.883,0.0,0.7,-0.3,-0.6,1.0,goes the OPPOSITE way (sharper goes with a smaller gap)
 loss_gap,trace,20,-0.746,-0.783,-0.726,0.1,0.738,0.3,0.6,0.2,-0.7,1.0,goes the OPPOSITE way (sharper goes with a smaller gap)
 loss_gap,sam_rho_0.05,20,-0.755,-0.788,-0.732,-0.05,0.892,-0.3,0.5,0.3,-0.7,1.0,goes the OPPOSITE way (sharper goes with a smaller gap)
@@ -18,4 +18,4 @@ loss_gap,lambda_max_scaled,20,0.929,0.897,0.979,-0.05,0.883,0.0,0.7,-0.3,-0.6,1.
 loss_gap,loss_rise_r0.25,20,0.361,0.274,0.411,0.425,0.094,1.0,-0.2,0.6,0.3,0.845,tracks the gap only through optimizer differences
 loss_gap,loss_rise_r0.50,20,0.371,0.294,0.414,0.4,0.119,1.0,0.1,0.6,-0.1,0.95,tracks the gap only through optimizer differences
 loss_gap,neg_low_loss_area,20,0.358,0.274,0.439,0.15,0.581,0.9,0.1,-0.2,-0.2,1.0,tracks the gap only through optimizer differences
-loss_gap,weight_norm,20,0.752,0.726,0.79,0.0,1.0,0.3,-0.3,-0.1,0.1,1.0,reference variable (not a sharpness measure)
+loss_gap,weight_norm,20,0.752,0.726,0.79,0.0,1.0,0.3,-0.3,-0.1,0.1,1.0,tracks the gap only through optimizer differences
