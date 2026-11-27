@@ -11,7 +11,7 @@ gen\_gap & lambda\_max\_scaled & 20 & 0.361000 & 0.170000 & 0.608000 & -0.200000
 gen\_gap & loss\_rise\_r0.25 & 20 & 0.707000 & 0.465000 & 0.906000 & 0.125000 & 0.655000 & 0.700000 & -0.200000 & -0.100000 & 0.100000 & 1.000000 & tracks the gap only through optimizer differences \\
 gen\_gap & loss\_rise\_r0.50 & 20 & 0.719000 & 0.488000 & 0.900000 & 0.125000 & 0.652000 & 0.700000 & 0.100000 & -0.100000 & -0.200000 & 1.000000 & tracks the gap only through optimizer differences \\
 gen\_gap & neg\_low\_loss\_area & 20 & 0.674000 & 0.455000 & 0.843000 & -0.075000 & 0.797000 & 0.400000 & 0.600000 & -0.700000 & -0.600000 & 1.000000 & tracks the gap only through optimizer differences \\
-gen\_gap & weight\_norm & 20 & -0.057000 & -0.317000 & 0.308000 & 0.125000 & 0.662000 & 0.700000 & 0.200000 & -0.600000 & 0.200000 & 0.662000 & no clear relation \\
+gen\_gap & weight\_norm & 20 & -0.057000 & -0.317000 & 0.308000 & 0.125000 & 0.662000 & 0.700000 & 0.200000 & -0.600000 & 0.200000 & 0.662000 & reference variable (not a sharpness measure) \\
 loss\_gap & lambda\_max & 20 & -0.707000 & -0.786000 & -0.598000 & -0.050000 & 0.883000 & 0.000000 & 0.700000 & -0.300000 & -0.600000 & 1.000000 & goes the OPPOSITE way (sharper goes with a smaller gap) \\
 loss\_gap & trace & 20 & -0.746000 & -0.783000 & -0.726000 & 0.100000 & 0.738000 & 0.300000 & 0.600000 & 0.200000 & -0.700000 & 1.000000 & goes the OPPOSITE way (sharper goes with a smaller gap) \\
 loss\_gap & sam\_rho\_0.05 & 20 & -0.755000 & -0.788000 & -0.732000 & -0.050000 & 0.892000 & -0.300000 & 0.500000 & 0.300000 & -0.700000 & 1.000000 & goes the OPPOSITE way (sharper goes with a smaller gap) \\
@@ -21,6 +21,6 @@ loss\_gap & lambda\_max\_scaled & 20 & 0.929000 & 0.897000 & 0.979000 & -0.05000
 loss\_gap & loss\_rise\_r0.25 & 20 & 0.361000 & 0.274000 & 0.411000 & 0.425000 & 0.094000 & 1.000000 & -0.200000 & 0.600000 & 0.300000 & 0.845000 & tracks the gap only through optimizer differences \\
 loss\_gap & loss\_rise\_r0.50 & 20 & 0.371000 & 0.294000 & 0.414000 & 0.400000 & 0.119000 & 1.000000 & 0.100000 & 0.600000 & -0.100000 & 0.950000 & tracks the gap only through optimizer differences \\
 loss\_gap & neg\_low\_loss\_area & 20 & 0.358000 & 0.274000 & 0.439000 & 0.150000 & 0.581000 & 0.900000 & 0.100000 & -0.200000 & -0.200000 & 1.000000 & tracks the gap only through optimizer differences \\
-loss\_gap & weight\_norm & 20 & 0.752000 & 0.726000 & 0.790000 & 0.000000 & 1.000000 & 0.300000 & -0.300000 & -0.100000 & 0.100000 & 1.000000 & tracks the gap only through optimizer differences \\
+loss\_gap & weight\_norm & 20 & 0.752000 & 0.726000 & 0.790000 & 0.000000 & 1.000000 & 0.300000 & -0.300000 & -0.100000 & 0.100000 & 1.000000 & reference variable (not a sharpness measure) \\
 \bottomrule
 \end{tabular}
