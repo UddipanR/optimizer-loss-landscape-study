@@ -7,3 +7,4 @@
 6. The untuned Lion run (learning rate 0.0001) is excluded from all main analyses.
 7. Test error (100 minus test accuracy) was added as a secondary correlation target after finding that the generalization gap understates Adam's deficit.
 8. Reference variables (conv norm, weight norm) are labelled as such in the correlation tables, because they are not sharpness measures.
+7. Test error (100 minus test accuracy) added as a secondary correlation target after finding that the generalization gap understates Adam's deficit (Adam fits the training set less tightly).
