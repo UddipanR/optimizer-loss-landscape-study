@@ -1,0 +1,10 @@
+\begin{tabular}{llllll}
+\toprule
+Optimizer & Raw top eigenvalue & Filter-norm. top eigenvalue & Filter-norm. trace & Loss rise at 0.25 & Loss rise at 0.5 \\
+\midrule
+SGD & 27.1 ± 10.8 & 7.5 ± 3.2 & 56 ± 13 & 0.0097 ± 0.0030 & 0.153 ± 0.044 \\
+Adam & 70.9 ± 15.3 & 37.1 ± 9.1 & 393 ± 73 & 0.1435 ± 0.0180 & 1.393 ± 0.116 \\
+AdamW & 6.9 ± 2.5 & 10.5 ± 6.1 & 55 ± 19 & 0.0295 ± 0.0094 & 0.644 ± 0.136 \\
+Lion & 5.4 ± 3.2 & 22.2 ± 10.7 & 56 ± 12 & 0.0428 ± 0.0150 & 0.900 ± 0.269 \\
+\bottomrule
+\end{tabular}
